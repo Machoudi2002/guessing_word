@@ -11,7 +11,7 @@ while user_gess != s_word and not(out_of_gess) :
         ges_cont += 1
         if user_gess == s_word:
             print("You win " + name + " !")
-        if ges_cont == 1 or ges_cont == 2 :
+        if (ges_cont == 1 or ges_cont == 2) and (user_gess != s_word) :
             print("incorrect Answer, try again "+name+" !")
 
     else:
