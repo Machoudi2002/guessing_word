@@ -3,7 +3,7 @@
 ges_cont = 0
 out_of_gess = False
 name = input("username : ")
-s_word = "Motherfucker"
+s_word = "London"
 user_gess = ""
 while user_gess != s_word and not(out_of_gess) :
     if ges_cont < ges_limit :
